@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=DynaPuff:wght@500;600;700&family=Rubik+Distressed&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root{
+  --clr-dark:#1f2937;
+  --clr-main-text:#f9faf8;
+  --clr-secondary-text:#e5e7eb;
+  --clr-light-blue:#388ef6;
+}
+html{
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+  background-color: var(--clr-main-text);
+
+}
+a { 
+ text-decoration: none;
+
+}
+li{
+  list-style: none;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.section-center {
+  width:80%;
+  margin:auto;
+
+
+}
+
+
+.bg-dark{
+  background-color: var(--clr-dark);
+
+}
+.bg-gray{
+  background-color: var(--clr-secondary-text);
+}
+.bg-blue{
+  background-color: var(--clr-light-blue);
+}
+.txt-main{
+  color: var(--clr-main-text);
+}
+.text-secondary{
+  color: var(--clr-secondary-text);
+}
+.text-dark{
+  color: var(--clr-dark);
+}
+.hero-text{
+  font: size 3rem;
+  font-weight:900;
+}
+.secondary-text,
+.link-text{
+  font-size:1.125;
+  font-weight:500;
+}
+.section-text{
+  font-size:2.25rem;
+  font-weight:900;
+
+}
+.quote-text{
+  font-size:2.25rem;
+  font-weight:400;
+  font-style: italic;
+
+}
+/*nav bar*/
+.header{
+  height:60vh;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.navbar{
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
